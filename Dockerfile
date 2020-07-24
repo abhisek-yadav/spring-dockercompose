@@ -10,15 +10,15 @@ FROM openjdk:8-jdk-alpine
 
 WORKDIR /usr/app
 
-#COPY --from=builder ./usr/app/target/spring-dockercompose-example-0.0.1-SNAPSHOT.jar /usr/app/spring-dockercompose-example-0.0.1-SNAPSHOT.jar
+#COPY --from=builder ./usr/app/target/spring-dockercompose-0.0.1-SNAPSHOT.jar /usr/app/spring-dockercompose-0.0.1-SNAPSHOT.jar
 
-COPY ./target/spring-dockercompose-example-0.0.1-SNAPSHOT.jar /usr/app/spring-dockercompose-example-0.0.1-SNAPSHOT.jar
+COPY ./target/spring-dockercompose-0.0.1-SNAPSHOT.jar /usr/app/spring-dockercompose-0.0.1-SNAPSHOT.jar
 
-CMD java -jar spring-dockercompose-example-0.0.1-SNAPSHOT.jar
+CMD java -jar spring-dockercompose-0.0.1-SNAPSHOT.jar
 
-# To build an Docker Image for this docker file: docker build -t abhisek-yadav/spring-dockercompose-example .
+# To build an Docker Image for this docker file: docker build -t abhisek-yadav/spring-dockercompose .
 
-# To create container out of this image:  docker run -p 8080:8080 abhisek-yadav/spring-dockercompose-example:latest
+# To create container out of this image:  docker run -p 8080:8080 abhisek-yadav/spring-dockercompose:latest
 
 # To run using docker-compose.yml: docker-compose up --build
 

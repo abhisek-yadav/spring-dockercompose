@@ -10,9 +10,9 @@
     <relativePath/> <!-- lookup parent from repository -->
   </parent>
   <groupId>com.test</groupId>
-  <artifactId>spring-dockercompose-example</artifactId>
+  <artifactId>spring-dockercompose</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <name>spring-dockercompose-example</name>
+  <name>Spring dockercompose example</name>
   <description>Demo project for Spring Boot with docker</description>
 
   <properties>
