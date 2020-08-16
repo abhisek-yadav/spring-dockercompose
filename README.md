@@ -9,9 +9,7 @@ This application uses Redis as a caching service.
 <br/>
 <br/>
 
-**Commands for Dockerfile:**
-
-<br/>
+## Commands for Dockerfile:
 
 ##### 1. To build a Docker Image for the docker file:
 
@@ -26,9 +24,7 @@ This application uses Redis as a caching service.
 <br/>
 <br/>
 
-**Commands for docker-compose.yml file:**
-
-<br/>
+## Commands for docker-compose.yml file:
 
 ##### 1. To build a Docker image using docker-compose.yml:
 
@@ -43,7 +39,7 @@ This application uses Redis as a caching service.
 
 `docker-compose up --build`
 
-#####3. To stop the running container: 
+##### 3. To stop the running container: 
 
 `docker-compose down`
 
