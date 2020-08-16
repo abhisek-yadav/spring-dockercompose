@@ -15,11 +15,3 @@ WORKDIR /usr/app
 COPY ./target/spring-dockercompose-0.0.1-SNAPSHOT.jar /usr/app/spring-dockercompose-0.0.1-SNAPSHOT.jar
 
 CMD java -jar spring-dockercompose-0.0.1-SNAPSHOT.jar
-
-# To build an Docker Image for this docker file: docker build -t abhisekyadav/spring-dockercompose .
-
-# To create container out of this image:  docker run -p 8080:8080 abhisekyadav/spring-dockercompose:latest
-
-# To run using docker-compose.yml: docker-compose up --build
-
-# To stop container: docker-compose down
